@@ -8,8 +8,6 @@ module movectf::counter {
     
     friend movectf::lucky_num;
 
-    friend movectf::lucky_num;
-
     /// A shared counter.
     struct Counter has key {
         id: UID,
