@@ -5,6 +5,8 @@ module movectf::counter {
 
     const MaxCounter: u64 = 10;
     const ENoAttemptLeft: u64 = 0;
+    
+    friend movectf::lucky_num;
 
     friend movectf::lucky_num;
 
